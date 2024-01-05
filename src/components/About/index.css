@@ -1,0 +1,61 @@
+.heading-about {
+  color: #000000;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.para-about {
+  font-size: 25px;
+  line-height: 35px;
+  color: #828282;
+  font-family: 'Nunito';
+  margin-bottom: 10px;
+}
+.heading-skills {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.text-skills {
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.extra-style {
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+}
+.skills-card-btm {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .heading-about {
+    font-size: 25px;
+    padding: 10px;
+  }
+  .para-about {
+    font-size: 17px;
+    line-height: 20px;
+    padding: 10px;
+  }
+  .heading-skills {
+    font-size: 15px;
+  }
+  .text-skills {
+    font-size: 13px;
+  }
+  .extra-style {
+    font-size: 12px;
+  }
+  .heading-skills-container {
+    display: none;
+  }
+  .skills-card-btm {
+    display: block;
+  }
+}

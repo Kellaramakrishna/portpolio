@@ -1,0 +1,222 @@
+* {
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.heading-top-card {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.top-heading {
+  font-family: 'Comfortaa';
+  font-size: 18px;
+}
+.nav-links {
+  list-style-type: none;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.links {
+  color: #25282b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.home-main-container {
+  display: flex;
+  height: 100vh;
+}
+.details-card {
+  width: 50%;
+}
+.inner-card {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.type-of-work-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #fdc435;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.text {
+  font-family: 'Playfair Display';
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.text-description {
+  font-size: 20px;
+  color: #828282;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.button-card {
+  display: flex;
+}
+.btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  color: #000000;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.btn-project {
+  background-color: #fdc435;
+  border: none;
+}
+.btn-LinkedIn {
+  background-color: transparent;
+}
+.get-banner-card {
+  width: 50%;
+  height: 100%;
+  background-image: url('https://res.cloudinary.com/dpcgriaf4/image/upload/v1704425437/imageimage_1_taipkw.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.add-project-card {
+  margin-top: 40px;
+}
+.heading-ad {
+  font-family: 'Playfair Display';
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline;
+  text-decoration-color: #fdc435;
+  margin-bottom: 20px;
+}
+.add-projects-details-card {
+  margin-top: 40px;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.card-form {
+  width: 35%;
+  margin-bottom: 15px;
+}
+.text-label {
+  margin-bottom: 10px;
+  color: #25282b;
+  font-size: 20px;
+}
+.input {
+  width: 100%;
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e8ecf4;
+}
+.text-area {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e8ecf4;
+}
+.submit-btn-card {
+  margin-top: 10px;
+  width: 35%;
+  text-align: right;
+}
+.btn-submit {
+  height: 35px;
+  width: 80px;
+  color: #000000;
+  border-radius: 5px;
+  background-color: #fdc435;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.bottom-card {
+  margin-top: 20px;
+  background-image: url('https://res.cloudinary.com/dpcgriaf4/image/upload/v1704429784/Vectorvetor_jrx9t2.png');
+  background-size: cover;
+  background-repeat: repeat;
+  height: 120px;
+  width: 100%;
+}
+.link-routes {
+  text-decoration: none;
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .type-of-work-name {
+    font-size: 12px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .text-description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .btn {
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+  }
+  .heading-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .links {
+    font-size: 14px;
+  }
+  .name-heading {
+    font-size: 14px;
+  }
+  .get-banner-card {
+    background-size: contain;
+  }
+  .inner-card {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .heading-ad {
+    font-size: 25px;
+  }
+  .add-projects-details-card {
+    margin-top: none;
+  }
+  .add-project-card {
+    margin-top: none;
+  }
+  .card-form {
+    width: 50%;
+  }
+  .text-label {
+    font-size: 15px;
+  }
+  .submit-btn-card {
+    width: 50%;
+  }
+  .heading-ad {
+    font-size: 20px;
+  }
+  .bottom-card {
+    height: 50px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+/* .heading-container {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.name-heading {
+  font-family: 'Comfortaa';
+  font-size: 18px;
+}
+.nav-links {
+  list-style-type: none;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.links {
+  color: #25282b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .heading-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .links {
+    font-size: 14px;
+  }
+  .name-heading {
+    font-size: 14px;
+  }
+} */

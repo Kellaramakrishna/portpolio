@@ -11,9 +11,11 @@ const Projects = () => {
             <div>
               <h1 className="name-project">{eachItem.projectName}</h1>
               <p className="p-description">{eachItem.description}</p>
-              <button className="btn-view" type="button">
-                View Project
-              </button>
+              <a href={`${eachItem.projectLink}`} target="__blank">
+                <button className="btn-view" type="button">
+                  View Project
+                </button>
+              </a>
             </div>
           </div>
           <div className="image-card-project">

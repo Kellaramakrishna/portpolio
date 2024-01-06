@@ -39,6 +39,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-left: 10px;
 }
 .type-of-work-name {
   font-family: 'Roboto';
@@ -49,7 +50,7 @@
 }
 .text {
   font-family: 'Playfair Display';
-  font-size: 65px;
+  font-size: 45px;
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -162,12 +163,15 @@
   .type-of-work-name {
     font-size: 12px;
   }
+  .home-main-container {
+    height: 50vh;
+  }
   .text {
     font-size: 18px;
   }
   .text-description {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 15px;
   }
   .btn {
     height: 30px;
@@ -179,7 +183,7 @@
     padding-right: 10px;
   }
   .links {
-    font-size: 14px;
+    font-size: 12px;
   }
   .name-heading {
     font-size: 14px;
@@ -218,5 +222,8 @@
   .bottom-card {
     height: 50px;
     width: 100%;
+  }
+  .top-heading {
+    font-size: 13px;
   }
 }

@@ -42,12 +42,14 @@ const About = () => {
           <h1 className="heading-about">About Me</h1>
           <p className="para-about">
             Hello! I&quot;m Madelyn Torff, a passionate <br />
-            UI/UX designer dedicated to creating delightful
-            <br /> and intuitive digital experiences.
-            <br /> With a keen eye for detail and a love
-            <br /> for problem-solving, I strive to blend aesthetics
-            <br /> with functionality to craft designs that not only look
-            <br /> great but also enhance user satisfaction.
+            UI/UX designer dedicated to creating delightful and intuitive
+            <br /> digital experiences. With a keen eye for detail and a love
+            <br />
+            for problem-solving, I strive to blend aesthetics
+            <br />
+            with functionality to craft designs that not only look
+            <br />
+            great but also enhance user satisfaction.
           </p>
         </div>
       </div>
@@ -72,7 +74,7 @@ const About = () => {
 
   return (
     <>
-      <div className="home-main-container">
+      <div className="home-main-container-about">
         {getDetailsCard()}
         {getBannerCard()}
       </div>

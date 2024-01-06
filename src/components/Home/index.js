@@ -15,11 +15,21 @@ const list = [
   },
   {
     id: 2,
-    projectName: 'TastyKitchens Application',
+    projectName: 'TastyKitchen Application',
     projectLink: 'https://TastyKitchenHub.ccbp.tech',
-    description: 'A task management solution, designed to make life easier',
+    description:
+      'Designed a website allowing users to search for a diverse selection of food items offered by various restaurants.',
     imageUrl:
       'https://res.cloudinary.com/dpcgriaf4/image/upload/v1704438287/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_d5bekl.jpg',
+  },
+  {
+    id: 3,
+    projectName: 'FruityLicious Application',
+    projectLink: 'https://flicioushome.ccbp.tech/',
+    description:
+      'Created a dynamic website offering a wide variety of fruit juices, ice creams, and salads to suit diverse preferences.',
+    imageUrl:
+      'https://res.cloudinary.com/dpcgriaf4/image/upload/v1689080299/fruitylicious/fruitssalad/bowl-fruit-with-blue-background_axzaxc.jpg',
   },
 ]
 
@@ -98,7 +108,12 @@ class Home extends Component {
   projectSubmit = event => {
     const {projectName, projectLink, description, imageUrl} = this.state
     event.preventDefault()
-    if (projectName !== '' && projectLink !== '' && description !== '') {
+    if (
+      projectName !== '' &&
+      projectLink !== '' &&
+      description !== '' &&
+      imageUrl !== ''
+    ) {
       const data = {
         id: uuidv4(),
         projectName,
@@ -108,6 +123,10 @@ class Home extends Component {
       }
       this.setState(prevState => ({
         projectList: [...prevState.projectList, data],
+        projectName: '',
+        projectLink: '',
+        description: '',
+        imageUrl: '',
       }))
     }
   }
